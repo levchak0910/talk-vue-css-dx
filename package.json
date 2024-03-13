@@ -1,0 +1,20 @@
+{
+  "name": "talk-vue-css-dx",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open --remote=pass",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@iconify-json/mdi": "^1.1.64",
+    "@slidev/cli": "^0.48.2",
+    "@slidev/client": "^0.48.2",
+    "@slidev/theme-default": "latest",
+    "qrcode.vue": "^3.4.1",
+    "slidev-addon-eslint-editor-vue": "^0.1.6",
+    "slidev-component-poll": "^2.1.1",
+    "vue": "^3.4.21"
+  }
+}
