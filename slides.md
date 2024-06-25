@@ -58,12 +58,15 @@ layout: two-cols
 
 ```yaml
 layout: two-cols
-transition: fade
 ```
+
+<template #default>
 
 # Vue SFC
 
 <<< @/components/vue-sfc.vue{all|1-8|10-13|15-20|all}
+
+</template>
 
 <template v-slot:right>
   <div class="h-full flex items-center ml-10">
@@ -75,7 +78,6 @@ transition: fade
 
 ```yaml
 zoom: 0.42
-transition: fade
 ```
 
 <<< @/snippets/1.vue
@@ -84,7 +86,6 @@ transition: fade
 
 ```yaml
 zoom: 2
-transition: fade
 ```
 
 <<< @/snippets/1.vue#unformatted-css css {1,3,5,7}

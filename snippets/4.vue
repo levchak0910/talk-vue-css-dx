@@ -34,15 +34,18 @@
     /* ... */
   }
 
+  // 3
   div {
     span { /* ... */ }
   }
 }
 
+// 1
 .component--group {
   &[disabled] { /* ... */ }
   &.active { /* ... */ }
   &.interactive { /* ... */ }
+  // 2
   &.someExtraClassName { /* ... */ }
 }
 
@@ -53,6 +56,7 @@
   &__group-subtitle { /* ... */ }
 }
 
+// 4
 .someComponent--GroupTitle {
   &.italic { /* ... */ }
 }

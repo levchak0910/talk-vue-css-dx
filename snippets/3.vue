@@ -24,7 +24,9 @@
   </div>
 </template>
 
+<!-- 1 -->
 <style lang="scss">
+// 2
 .some-component--container {
   top: 0;
   display: flex;
@@ -37,6 +39,7 @@
   div {
     span { /* ... */ }
 
+    // 3
     p b {
       /* ... */
     }
@@ -45,7 +48,9 @@
 
 .component--group {
   &[disabled] { /* ... */ }
+  // 4
   &.active { /* ... */ }
+  // 5
   &.interactive { /* ... */ }
   &.someExtraClassName { /* ... */ }
 }
