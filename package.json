@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
+    "build:gh-pages": "slidev build --base=/talk-vue-css-dx/ slides.md",
     "dev": "slidev --open --remote=pass",
     "export": "slidev export"
   },
